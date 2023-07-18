@@ -34,7 +34,6 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
     
-
     // animation footer on scroll
 
 }

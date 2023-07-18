@@ -277,17 +277,19 @@
             e.preventDefault(); // Prevent form submission
             var name = document.getElementById('name').value;
             var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
             var subject = document.getElementById('subject').value;
             var message = document.getElementById('message').value;
+            var body = 'name: '+name +'<br/> email: ' + email + '<br/> phone: '+phone + '<br/> subject: '+subject + '<br/> message: '+ message;
 
 
                             Email.send({
-                    SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
-                    To : 'them@website.com',
-                    From : "you@isp.com",
-                    Subject : "This is the subject",
-                    Body : "And this is the body"
-                }).then(
+                    SecureToken : "d01bf55e-703d-482e-b61c-a912ee065809",
+                    To : 'hanzalah.qamar02@gmail.com',
+                    From : "hanzalah.qamar02@gmail.com",
+                    Subject : "contact message",
+                    Body : body
+                            }).then(
                 message => alert(message)
                 );
         });

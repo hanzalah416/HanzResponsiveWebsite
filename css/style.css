@@ -789,7 +789,7 @@ color: var(--text-color);
     }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 390px) {
     .home {
         justify-content: center;
     }
@@ -804,6 +804,15 @@ color: var(--text-color);
     .home-content h1 {
         font-size: 5rem;
     }
-
-
 }
+
+@media (max-width: 720px) {
+
+    @media (max-width: 720px) {
+        .home-sci {
+          position: center;
+          bottom: -7rem; /* Adjust the top value as needed */
+        }
+      }
+    
+  }
